@@ -1,0 +1,48 @@
+/* importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+/* propiedades de inicialización */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff1eb;
+  background: linear-gradient(0deg, #fff1eb 0%, #ace0f9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Título */
+
+.title {
+  font-size: 300%;
+  text-align: center;
+  margin: 5rem 0;
+  letter-spacing: 0.4rem;
+  word-spacing: 0.5rem;
+  color: #383838;
+  font-family: 'Lobster Two', cursive;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.mainDesc {
+  width: 50%;
+  margin: 7rem 7rem;
+  font-family: 'Lobster Two', cursive;
+  font-size: 140%;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #383838;
+}
+
+.mainCalc {
+  width: 50%;
+}
